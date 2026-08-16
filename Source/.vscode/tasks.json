@@ -1,0 +1,44 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Clean",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "clean"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build: Debug",
+            "dependsOn": "Clean",
+            "dependsOrder": "sequence",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "--configuration",
+                "Debug"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Build: Release",
+            "dependsOn": "Clean",
+            "dependsOrder": "sequence",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "--configuration",
+                "Release"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
