@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Genepacks Injection</name>
+  <author>Zarathos</author>
+  <packageId>Zarathos.GenepacksInjection</packageId>
+  <url>https://github.com/Zarathos/GenepacksInjection</url>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>This mod allows genepacks to be injected directly into pawns without messing with xenogerms and xenotypes.
+Colonists can inject genepacks into themselves or forcibly administer them to prisoners and slaves.
+
+Injected genes can be added as xenogenes (the default behavior) or endogenes, depending on the configuration.
+The genepack's genes are merged into the recipient's genetic pool: only missing genes are added.
+The genepack is consumed once the injection is performed, and the recipient enters xenogermination coma.</description>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+  </loadAfter>
+  <modVersion IgnoreIfNoMatchingField="True">1.0.0</modVersion>
+</ModMetaData>

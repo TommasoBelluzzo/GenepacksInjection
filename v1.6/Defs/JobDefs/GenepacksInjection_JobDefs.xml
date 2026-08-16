@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <JobDef>
+        <driverClass>GenepacksInjection.JobDriverGpi</driverClass>
+        <defName>GenepacksInjection_InjectGenepack</defName>
+        <reportString>injecting a genepack into TargetA.</reportString>
+    </JobDef>
+</Defs>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Genepack"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Genepack"]</xpath>
+			<value>
+				<comps>
+					<li Class="CompProperties_Usable">
+						<useJob>UseItem</useJob>
+						<useLabel>Inject genepack into self</useLabel>
+						<useDuration>150</useDuration>
+					</li>
+					<li Class="GenepacksInjection.CompPropertiesGpi"/>
+					<li Class="CompProperties_UseEffectDestroySelf"/>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Genepack"]/comps</xpath>
+			<value>
+				<li Class="CompProperties_Usable">
+					<useJob>UseItem</useJob>
+					<useLabel>Inject genepack into self</useLabel>
+					<useDuration>150</useDuration>
+				</li>
+				<li Class="GenepacksInjection.CompPropertiesGpi"/>
+				<li Class="CompProperties_UseEffectDestroySelf"/>
+			</value>
+		</match>
+	</Operation>
+</Patch>

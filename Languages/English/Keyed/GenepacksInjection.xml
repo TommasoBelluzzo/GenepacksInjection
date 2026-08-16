@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <GPI_ModName>Genepacks Injection</GPI_ModName>
+    <GPI_UseEndogenesLabel>Add genes as endogenes</GPI_UseEndogenesLabel>
+    <GPI_UseEndogenesDescription>When enabled, injected genes are added as endogenes. When disabled, they are added as xenogenes.</GPI_UseEndogenesDescription>
+    <GPI_AllGenesAlreadyPresent>No new genes can be added from this genepack</GPI_AllGenesAlreadyPresent>
+    <GPI_GenepackUnavailable>The selected genepack is no longer available.</GPI_GenepackUnavailable>
+    <GPI_InjectGenepack>Inject genepack into {0}</GPI_InjectGenepack>
+    <GPI_InjectGenepackSelf>Inject genepack into self</GPI_InjectGenepackSelf>
+    <GPI_InvalidInjection>The injection can no longer be performed.</GPI_InvalidInjection>
+    <GPI_NoGenepacksAvailable>No injectable genepacks available</GPI_NoGenepacksAvailable>
+</LanguageData>
