@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Genepacks Injection</name>
-  <author>Zarathos</author>
-  <packageId>Zarathos.GenepacksInjection</packageId>
-  <url>https://github.com/Zarathos/GenepacksInjection</url>
+  <author>Tommaso Belluzzo</author>
+  <packageId>TommasoBelluzzo.GenepacksInjection</packageId>
+  <url>https://github.com/TommasoBelluzzo/GenepacksInjection</url>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
